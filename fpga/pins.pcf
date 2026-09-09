@@ -1,0 +1,10 @@
+set_io clk 20
+
+set_io btn[0] 19
+set_io btn[1] 13
+set_io btn[2] 21
+set_io btn[3] 12
+
+set_io strobe 18
+set_io data 11
+set_io shift_clk 9
