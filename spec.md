@@ -2,6 +2,13 @@
 
 ### Introduction
 
+**To download this repository to your home directory, run the following commands in a terminal or PowerShell:**
+
+```
+cd ~
+git clone https://github.com/DougTownsend/ece212-project1.git
+```
+
 The purpose of this project is to get you familiar with breadboard, the Apio toolchain, and several Analog Discovery features. All code is provided for this project. In this project, you will set up the four buttons, eight LEDs, and two shift registers that we will use in projects 2 and 3. Since we will need more outputs than the Pico has available, we are using two shift registers for 16 of our outputs. We will cover shift registers in more detail later in the semester, but it is just a bunch of D flip flops connected together in series. This allows us to use one output pin for data, and another for clock. We then cycle through all the bits we want to output, and the bits are then shifted down on each positive clock edge. To avoid seeing the bits shifting into their desired positions, there is a second layer of D flip flops whose clock is the "strobe" signal. At the positive edge of the strobe signal, all outputs are updated with the contents of the shift register. Each shift register's QS1 connection can be chained into the data input of another shift register, allowing us to have as many outputs as we want from these three I/O pins, at the cost of those outputs not being as responsive. A block diagram of how this works is shown below.
 
 ![Shift reg block diagram](images/shiftreg_block.png)
