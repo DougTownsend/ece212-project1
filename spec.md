@@ -93,9 +93,23 @@ Now, connect the positive pin of each LED to one of the resistors connected to t
 
 ![LEDs connected to shift reg outputs](images/IMG_2051.JPG)
 
-### Coming Soon: Connecting the Analog Discovery
+### Demo Procedure
 
+You will press each button, and we will make sure that the four different patterns appear on the LEDs.
 
+btn[0] : 1010 1111
+btn[1] : 1111 1111
+btn[2] : 0000 1010
+btn[3] : 0000 1100
 
-### Coming Soon: Rubric
+### Rubric
+
+| Item | Points |
+| --- | --- |
+| Reasonable Attempt | 40 |
+| Resistors Trimmed | 20 |
+| Buttons Work | 20 |
+| LEDs Work | 20 |
+| Demo on or before 9/25 | 5 (Extra Credit) |
+
 

@@ -30,7 +30,7 @@ module main(
         end
 
         if (btn[3]) begin
-            led = 8'b 00001100;
+            led = 8'b00001100;
             seven_seg = 8'b00000001;
         end
     end
