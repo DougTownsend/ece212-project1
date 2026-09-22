@@ -1,5 +1,9 @@
 ## ECE 212 - Project 1 - Fall 2026
 
+### Toolchain Installation
+
+If you haven't already, make sure you follow the instructions for installing the Apio toolchain [here](https://github.com/DougTownsend/apio/blob/main/README.md). Note that this is a custom fork of Apio, and mainline Apio will not work with the Pico.
+
 ### Introduction
 
 **To download this repository to your home directory, run the following commands in a terminal or PowerShell:**
