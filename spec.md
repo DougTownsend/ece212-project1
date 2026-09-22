@@ -39,7 +39,9 @@ While building the circuit, you will need to know what each pin does on the Pico
 
 ### Building the Circuit
 
-For this project, I will show step-by-step pictures of the circuit, but in all projects after this one, you will only be given circuit schematics. The first step is to connect 3.3V from the Pico/FPGA to the power rail, and connect any of the ground pins to the ground rail. Then connect ALL the power rails to each other, and ALL the ground rails to each other. Make sure that you do not accidentally connect power to ground, as that will prevent your circuit from functioning and could potentially damage your Pico/FPGA.
+For this project, I will show step-by-step pictures of the circuit, but in all projects after this one, you will only be given circuit schematics. The first step is to connect 3.3V from the Pico/FPGA to the power rail, and connect any of the ground pins to the ground rail. Then connect ALL the power rails to each other, and ALL the ground rails to each other. Make sure that you do not accidentally connect power to ground, as that will prevent your circuit from functioning and could potentially damage your Pico/FPGA. The schematic for the circuit we are building in this project is below. **If you are using the FPGA, look at the FPGA PCF file to see the pin numbers. The schematic only shows the Pico, but the rest of the circuit (buttons and shift registers) is the same for both.**
+
+![Schematic](images/proj1_schematic.png)
 
 We can now add the four buttons, the switches, and the first shift register. When putting the shift register into the board, be aware of which side the U-shaped notch is on. In the image below, you can see the pinout for the shift register. The U-shaped notch is on the end that has the circle in the image. **The shift register chip has a circle at the end opposite the U-shaped notch. That mark is from injection molding, and is NOT the circle shown in the image**. In the following images, the U will be on the right side of the chip, which puts pins 1-3 closest to the Pico/FPGA.
 
