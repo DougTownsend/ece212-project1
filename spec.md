@@ -99,6 +99,10 @@ Now, connect the positive pin of each LED to one of the resistors connected to t
 
 ![LEDs connected to shift reg outputs](images/IMG_2051.JPG)
 
+### Analog Discovery
+
+Due to supply chain issues, we will not be using the AD3 for this project this semester.
+
 ### Demo Procedure
 
 You will press each button, and we will make sure that the four different patterns appear on the LEDs.
