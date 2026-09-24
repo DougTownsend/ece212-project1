@@ -1,5 +1,9 @@
 ## ECE 212 - Project 1 - Fall 2026
 
+### Toolchain Installation
+
+If you haven't already, make sure you follow the instructions for installing the Apio toolchain [here](https://github.com/DougTownsend/apio/blob/main/README.md). Note that this is a custom fork of Apio, and mainline Apio will not work with the Pico.
+
 ### Introduction
 
 **To download this repository to your home directory, run the following commands in a terminal or PowerShell:**
@@ -94,6 +98,10 @@ Now all that is left is finishing the LEDs. Start by connecting each LED's negat
 Now, connect the positive pin of each LED to one of the resistors connected to the shift register. Q3 should go to the top-left LED, Q0 to the top-right, Q7 to the bottom-left, and Q4 to the bottom-right. See image below.
 
 ![LEDs connected to shift reg outputs](images/IMG_2051.JPG)
+
+### Analog Discovery
+
+Due to supply chain issues, we will not be using the AD3 for this project this semester.
 
 ### Demo Procedure
 
